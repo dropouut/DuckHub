@@ -1,0 +1,109 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local OwoOWowow = Instance.new("ScreenGui")
+local OwoWOwFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UwUText = Instance.new("TextLabel")
+local BarBG = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Bar = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+OwoOWowow.Name = "OwoOWowow"
+OwoOWowow.Parent = game.CoreGui
+OwoOWowow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OwoWOwFrame.Name = "OwoWOwFrame"
+OwoWOwFrame.Parent = OwoOWowow
+OwoWOwFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OwoWOwFrame.Position = UDim2.new(0.358787894, 0, 0.276073635, 0)
+OwoWOwFrame.Size = UDim2.new(0, 479, 0, 226)
+
+UICorner.Parent = OwoWOwFrame
+
+Title.Name = "Title"
+Title.Parent = OwoWOwFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(0, 479, 0, 23)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "DuckHub - Synpase X, KRNL"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+UwUText.Name = "UwUText"
+UwUText.Parent = OwoWOwFrame
+UwUText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UwUText.BackgroundTransparency = 1.000
+UwUText.Position = UDim2.new(0.0229645092, 0, 0.225663722, 0)
+UwUText.Size = UDim2.new(0, 468, 0, 103)
+UwUText.Font = Enum.Font.FredokaOne
+UwUText.Text = "Downloading Libary..."
+UwUText.TextColor3 = Color3.fromRGB(255, 255, 255)
+UwUText.TextScaled = true
+UwUText.TextSize = 14.000
+UwUText.TextWrapped = true
+
+BarBG.Name = "BarBG"
+BarBG.Parent = OwoWOwFrame
+BarBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BarBG.Position = UDim2.new(0.0229645092, 0, 0.78318584, 0)
+BarBG.Size = UDim2.new(0, 457, 0, 31)
+BarBG.Font = Enum.Font.SourceSans
+BarBG.Text = ""
+BarBG.TextColor3 = Color3.fromRGB(255, 255, 255)
+BarBG.TextScaled = true
+BarBG.TextSize = 14.000
+BarBG.TextWrapped = true
+
+UICorner_2.Parent = BarBG
+
+Bar.Name = "Bar"
+Bar.Parent = BarBG
+Bar.BackgroundColor3 = Color3.fromRGB(45, 255, 8)
+Bar.Size = UDim2.new(0, 18, 0, 31)
+Bar.Font = Enum.Font.SourceSans
+Bar.Text = ""
+Bar.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bar.TextSize = 14.000
+
+UICorner_3.Parent = Bar
+
+-- Scripts:
+
+local function JSNMQM_fake_script() -- UwUText.LocalScript 
+	local script = Instance.new('LocalScript', UwUText)
+
+	local textTo = script.Parent
+	
+	wait(3)
+	textTo.Text = "Downloading Scripts..."
+	wait(6)
+	textTo.Text = "Uploading Key..."
+	wait(5)
+	textTo.Text = "Connecting To Key-System"
+	wait(10)
+	textTo.Text = "Key Accepted! Enjoy Exploiting."
+end
+coroutine.wrap(JSNMQM_fake_script)()
+local function PXZFWJ_fake_script() -- Bar.BarStart 
+	local script = Instance.new('LocalScript', Bar)
+
+	local Bar = script.Parent
+	
+	wait(3)
+	Bar.Size = UDim2.new(0, 116,0, 31)
+	wait(6)
+	Bar.Size = UDim2.new(0, 219,0, 31)
+	wait(5)
+	Bar.Size = UDim2.new(0, 350,0, 31)
+	wait(10)
+	Bar.Size = UDim2.new(0, 457,0, 31)
+end
+coroutine.wrap(PXZFWJ_fake_script)()
